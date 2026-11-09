@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steven Balalis | Forward Deployed AI, Solutions Architecture &amp; Technical Delivery</title>
+  <meta name="description" content="Professional portfolio of Steven Balalis: Forward Deployed AI &amp; Systems Delivery leader with 7+ years leading AI, data integration, and platform programs, and leading teams since 2016." />
+  <meta property="og:title" content="Steven Balalis | Forward Deployed AI &amp; Systems Delivery" />
+  <meta property="og:description" content="Taking AI from technical discovery to production. 71 channel partners on Orbit AI (30 live), 20+ healthcare data integration programs, 59 partner feeds live, leading teams since 2016." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Subtle noise layer on fixed pseudo-element for zero scroll repaint cost -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Top Navigation (<= 72px height, single line on desktop) -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand-mark" aria-label="Steven Balalis Home">
+        <span class="brand-monogram">SB</span>
+        <span class="brand-text">
+          <span class="brand-name">Steven Balalis</span>
+          <span class="brand-role">Forward Deployed AI &amp; Systems Delivery</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <a href="#ai-fluency" class="nav-link">AI Fluency</a>
+        <a href="#leadership" class="nav-link">Leadership Since 2016</a>
+        <a href="#case-studies" class="nav-link">Case Studies</a>
+        <a href="#experience" class="nav-link">Career</a>
+        <a href="#credentials" class="nav-link">Credentials</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 256 256" width="18" height="18" fill="none" stroke="currentColor" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="128" cy="128" r="56"></circle>
+            <line x1="128" y1="24" x2="128" y2="40"></line>
+            <line x1="128" y1="216" x2="128" y2="232"></line>
+            <line x1="54.5" y1="54.5" x2="65.8" y2="65.8"></line>
+            <line x1="190.2" y1="190.2" x2="201.5" y2="201.5"></line>
+            <line x1="24" y1="128" x2="40" y2="128"></line>
+            <line x1="216" y1="128" x2="232" y2="128"></line>
+            <line x1="54.5" y1="201.5" x2="65.8" y2="190.2"></line>
+            <line x1="190.2" y1="65.8" x2="201.5" y2="54.5"></line>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 256 256" width="18" height="18" fill="none" stroke="currentColor" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M216.7,152.6A91.9,91.9,0,0,1,103.4,39.3h0A92,92,0,1,0,216.7,152.6Z"></path>
+          </svg>
+        </button>
+        <a href="assets/Steven_Balalis_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Resume PDF</a>
+        <a href="mailto:Steven.Balalis@gmail.com" class="btn btn-primary">Email Steven</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- SECTION 1: ASYMMETRIC SPLIT HERO (Eyebrow 1 of 3) -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Forward Deployed AI | Solutions Architecture | Technical Program Leadership</p>
+          <h1 class="hero-headline">
+            Taking AI from discovery to <em>production</em>.
+          </h1>
+          <p class="hero-subtext">
+            7+ years leading AI, data integration, and platform programs, and leading teams since 2016 across B2B SaaS, healthcare, and public-sector operations.
+          </p>
+          <div class="hero-ctas">
+            <a href="#case-studies" class="btn btn-primary btn-lg">Explore Case Studies</a>
+            <a href="assets/Steven_Balalis_Resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">Resume PDF</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-artifact-frame">
+            <img
+              src="assets/hero-architecture.jpg"
+              alt="Architectural visualization of multi-tenant AI voice routing and enterprise data integration pipelines"
+              width="800"
+              height="450"
+              class="hero-img"
+              fetchpriority="high"
+            />
+            <div class="hero-metrics-overlay">
+              <div class="metric-chip">
+                <span class="metric-val">71</span>
+                <span class="metric-lbl">Channel partners in Orbit AI program (30 live)</span>
+              </div>
+              <div class="metric-chip">
+                <span class="metric-val">59</span>
+                <span class="metric-lbl">Healthcare partner data feeds taken live</span>
+              </div>
+              <div class="metric-chip">
+                <span class="metric-val">10/10</span>
+                <span class="metric-lbl">QA test calls passed on emergency IVR AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PARTNER & TECHNICAL ECOSYSTEM BAR (Directly under Hero, SVG Monograms/Logos) -->
+    <section class="ecosystem-strip" aria-label="Partner Ecosystems and Core Stack">
+      <div class="container ecosystem-inner">
+        <div class="ecosystem-group">
+          <span class="ecosystem-caption">Executive Partner Accounts &amp; Carrier Ecosystems Managed</span>
+          <div class="logo-row" role="list">
+            <div class="logo-item" role="listitem" title="Sword Health">
+              <svg viewBox="0 0 140 32" width="122" height="28" aria-label="Sword Health">
+                <rect x="2" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 16h8M12 12v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <text x="30" y="21" fill="currentColor" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="13.5" letter-spacing="-0.02em">Sword Health</text>
+              </svg>
+            </div>
+            <div class="logo-item" role="listitem" title="Hinge Health">
+              <svg viewBox="0 0 140 32" width="122" height="28" aria-label="Hinge Health">
+                <circle cx="12" cy="16" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M9 12v8M15 12v8M9 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <text x="29" y="21" fill="currentColor" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="13.5" letter-spacing="-0.02em">Hinge Health</text>
+              </svg>
+            </div>
+            <div class="logo-item" role="listitem" title="Maven Clinic">
+              <svg viewBox="0 0 110 32" width="96" height="28" aria-label="Maven">
+                <path d="M4 23V9l7 8 7-8v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <text x="26" y="21" fill="currentColor" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="13.5" letter-spacing="-0.02em">Maven</text>
+              </svg>
+            </div>
+            <div class="logo-item" role="listitem" title="Spring Health">
+              <svg viewBox="0 0 145 32" width="126" height="28" aria-label="Spring Health">
+                <path d="M12 7c5 0 8 4 8 9s-3 9-8 9-8-4-8-9 3-9 8-9z" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M9 18c2-4 4-4 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <text x="28" y="21" fill="currentColor" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="13.5" letter-spacing="-0.02em">Spring Health</text>
+              </svg>
+            </div>
+            <div class="logo-item" role="listitem" title="Horizon Blue Cross Blue Shield of New Jersey">
+              <svg viewBox="0 0 165 32" width="144" height="28" aria-label="Horizon BCBSNJ">
+                <rect x="2" y="6" width="20" height="20" rx="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M6 16h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <text x="29" y="21" fill="currentColor" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="13.5" letter-spacing="-0.02em">Horizon BCBSNJ</text>
+              </svg>
+            </div>
+            <div class="logo-item" role="listitem" title="SkySwitch / NetSapiens">
+              <svg viewBox="0 0 185 32" width="160" height="28" aria-label="SkySwitch / NetSapiens">
+                <polygon points="12,6 21,11 21,21 12,26 3,21 3,11" fill="none" stroke="currentColor" stroke-width="2"/>
+                <text x="29" y="21" fill="currentColor" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="13.5" letter-spacing="-0.02em">SkySwitch / NetSapiens</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: AI FLUENCY & FORWARD-DEPLOYED EXECUTION (5-Cell Asymmetric Bento Grid, NO Eyebrow) -->
+    <section id="ai-fluency" class="section-pad">
+      <div class="container">
+        <div class="section-header-stack">
+          <h2 class="section-title">Hands-on AI builder and deployment leader</h2>
+          <p class="section-subtitle">
+            Bridging customer discovery, structured AI governance, and production code across voice AI, white-label services, and LLM engineering.
+          </p>
+        </div>
+
+        <div class="bento-grid-5">
+          <!-- Cell 1: Featured Dark/Accent Span 2 -->
+          <article class="bento-card bento-span-2 bento-surface-accent">
+            <div class="bento-top">
+              <span class="status-pill status-shipped">Shipped in Production</span>
+              <span class="mono-tag">Python / JavaScript (Node.js) / SQL / GitLab CI/CD</span>
+            </div>
+            <h3 class="bento-heading">Orbit AI White-Label Email Architecture</h3>
+            <p class="bento-body">
+              Channel partners reselling BCM One's Orbit AI voice receptionist needed all outgoing customer email to send from their own domain instead of <code>@bcmone</code>. Wrote and shipped the email slice of the white-label capability powered by SES in Python, JavaScript/Node.js, and SQL, deployed through GitLab CI/CD pipelines and monitored in production with Grafana and AWS monitoring. Used by all 30 live reselling partners.
+            </p>
+            <div class="bento-footer-metrics">
+              <div>
+                <span class="bento-stat">30 / 30</span>
+                <span class="bento-stat-label">Live partners using capability</span>
+              </div>
+              <div>
+                <span class="bento-stat">GitLab CI/CD</span>
+                <span class="bento-stat-label">Automated pipeline + Grafana/AWS monitoring</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Cell 2: Emergency IVR AI + Flow Schema -->
+          <article class="bento-card">
+            <div class="bento-top">
+              <span class="status-pill status-shipped">10/10 QA Validated</span>
+            </div>
+            <h3 class="bento-heading">After-Hours Emergency-Detection IVR AI</h3>
+            <p class="bento-body">
+              Shipped a production after-hours emergency-detection and dispatch-routing IVR AI capability that triages calls to emergency operations or EMS where applicable, validated end to end against a 10-call QA test suite (10/10 passed) before release. Reverse-engineered the Orbit AI flow JSON schema to document validation rules and publish blockers for the automatic flow-generation engine.
+            </p>
+          </article>
+
+          <!-- Cell 3: AI Intake & Security Governance -->
+          <article class="bento-card">
+            <div class="bento-top">
+              <span class="status-pill status-gov">Governance &amp; Security</span>
+            </div>
+            <h3 class="bento-heading">AI Use-Case Intake &amp; OAuth Access Control</h3>
+            <p class="bento-body">
+              Scoped about 10 new AI use cases since July 2026 through a structured intake evaluating business case, technical complexity, feasibility, and risk to recommend <strong>build, pilot, or decline</strong>, taking approved builds through Legal, Security, Compliance, and Internal Audit gates. Evaluated scoped Atlassian API tokens against OAuth for Jira intake, selected OAuth on token rotation risk, and serve as Claude Admin at BCM One (and previously at Transcarent).
+            </p>
+          </article>
+
+          <!-- Cell 4: Ongoing API & n8n Integrations -->
+          <article class="bento-card bento-surface-tinted">
+            <div class="bento-top">
+              <span class="status-pill status-ongoing">Ongoing Validation &amp; Build</span>
+            </div>
+            <h3 class="bento-heading">Orbit AI API, CRM &amp; n8n Integrations</h3>
+            <p class="bento-body">
+              Turned 54 partner mentions into an 18-request Product roadmap board identifying CRM and workflow integrations as the #1 partner demand. Currently testing and validating the Orbit AI API and REST APIs for CRM (Salesforce, HubSpot) and workflow connections across SkySwitch/NetSapiens (ongoing), and building an n8n workflow integration to HubSpot (ongoing).
+            </p>
+          </article>
+
+          <!-- Cell 5: Academic & Applied LLM Depth -->
+          <article class="bento-card">
+            <div class="bento-top">
+              <span class="status-pill status-study">M.S. &amp; Coursework (In Progress)</span>
+            </div>
+            <h3 class="bento-heading">LLM Engineering &amp; Generative AI Enablement</h3>
+            <p class="bento-body">
+              Pursuing an M.S. in Artificial Intelligence &amp; Large Language Models at Eastern University (In Progress), with hands-on LLM engineering coursework in RAG pipelines, AI agents, QLoRA fine-tuning, and OpenAI/Anthropic APIs, plus study-based working knowledge of LangChain, Amazon Bedrock, and infrastructure-as-code (AWS AIF-C01 In Progress). Previously self-initiated org-wide ChatGPT adoption at Persevere Now (+25% YoY via ~3 workshops/month).
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: LEADING TEAMS SINCE 2016 (Eyebrow 2 of 3, Interactive Progression Matrix) -->
+    <section id="leadership" class="section-pad section-alt">
+      <div class="container">
+        <div class="section-header-stack">
+          <p class="eyebrow">People &amp; Cross-Functional Leadership</p>
+          <h2 class="section-title">Leading teams since 2016 across four organizations</h2>
+          <p class="section-subtitle">
+            From supervising regulated state health benefits units to directing 17-person cross-functional engineering and instructional teams and leading AI implementation sprints.
+          </p>
+        </div>
+
+        <div class="leadership-summary-bar">
+          <div class="lead-stat-box">
+            <span class="lead-stat-num">Since 2016</span>
+            <span class="lead-stat-desc">Continuous leadership foundation beginning at NJ Treasury</span>
+          </div>
+          <div class="lead-stat-box">
+            <span class="lead-stat-num">Up to 17</span>
+            <span class="lead-stat-desc">Direct reports managed simultaneously (3 SWEs, 7 Instructors, 7 TAs)</span>
+          </div>
+          <div class="lead-stat-box">
+            <span class="lead-stat-num">6 Workstreams</span>
+            <span class="lead-stat-desc">Cross-functional P0-P2 portfolio orchestrated across 30+ partners</span>
+          </div>
+          <div class="lead-stat-box">
+            <span class="lead-stat-num">PSPO I + LSSBB</span>
+            <span class="lead-stat-desc">Scrum Product Owner &amp; Lean Six Sigma Black Belt rigor</span>
+          </div>
+        </div>
+
+        <div class="leadership-timeline-grid">
+          <!-- Era 1: BCM One -->
+          <article class="leader-card leader-card-active">
+            <div class="leader-card-header">
+              <span class="leader-dates">July 2026 - Present</span>
+              <span class="leader-badge">4 Direct Reports</span>
+            </div>
+            <h3 class="leader-org">BCM One</h3>
+            <p class="leader-role">AI Implementation Manager (Product Owner &amp; Scrum Master)</p>
+            <p class="leader-desc">
+              Lead BCM One's AI Implementation Team (AIT) on 2-week Scrum sprints with Jira backlog refinement and story-point estimation. Manage 4 direct reports who handle build work and individual partner calls while running partner kickoff calls and technical discovery across ~71 channel partners.
+            </p>
+          </article>
+
+          <!-- Era 2: Transcarent -->
+          <article class="leader-card">
+            <div class="leader-card-header">
+              <span class="leader-dates">Sep 2025 - Jun 2026</span>
+              <span class="leader-badge">Matrixed Program Leadership</span>
+            </div>
+            <h3 class="leader-org">Transcarent</h3>
+            <p class="leader-role">Technical Program Manager, Data Integrations</p>
+            <p class="leader-desc">
+              Program leadership across Engineering, Data Engineering, Analytics, and Customer Success (no direct reports). Orchestrated 6 cross-functional workstreams (P0-P2) spanning 20+ concurrent integration programs, co-led the Team Operating Model workstream (WS6), and owned 12 executive partner accounts.
+            </p>
+          </article>
+
+          <!-- Era 3: Persevere Now -->
+          <article class="leader-card">
+            <div class="leader-card-header">
+              <span class="leader-dates">Nov 2022 - May 2025</span>
+              <span class="leader-badge">17 Direct Reports</span>
+            </div>
+            <h3 class="leader-org">Persevere Now</h3>
+            <p class="leader-role">Program Manager, Data &amp; Platform Operations</p>
+            <p class="leader-desc">
+              Led a 17-person team comprising 3 software engineers, 7 classroom instructors, and 7 teaching assistants as direct reports. Directed full-stack technical operations and code review across JavaScript/HTML/CSS, React/Redux, Angular, Node.js, MongoDB, Docker, and GitHub while scaling platform capacity 50%.
+            </p>
+          </article>
+
+          <!-- Era 4: Trenton Public School District -->
+          <article class="leader-card">
+            <div class="leader-card-header">
+              <span class="leader-dates">Sep 2019 - Nov 2022</span>
+              <span class="leader-badge">4-Person Team</span>
+            </div>
+            <h3 class="leader-org">Trenton Public School District</h3>
+            <p class="leader-role">Technology Program Manager / Classroom Teacher</p>
+            <p class="leader-desc">
+              Led a 4-person team as Technology Program Manager. Separately managed the district-wide digital platform rollout across 30+ schools and 1,000+ staff and spearheaded the legacy student information system migration to PowerSchool, cutting district software costs by 10%.
+            </p>
+          </article>
+
+          <!-- Era 5: NJ Treasury -->
+          <article class="leader-card">
+            <div class="leader-card-header">
+              <span class="leader-dates">2016 - Sep 2019 (Role: Aug 2012 - Sep 2019)</span>
+              <span class="leader-badge">5-Person Unit</span>
+            </div>
+            <h3 class="leader-org">State of New Jersey - Dept. of the Treasury</h3>
+            <p class="leader-role">Pension Benefit Specialist III</p>
+            <p class="leader-desc">
+              Following individual-contributor work (2012-2016), led a 5-person team of Pension Benefit Specialists from 2016 to 2019 overseeing health benefit enrollment processing for SHBP and SEHBP and triage support with Horizon Blue Cross Blue Shield of New Jersey, running performance evaluations, training, and peak workload distribution across thousands of monthly applications.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: ARCHITECTURAL CASE STUDIES & CAR DOSSIERS (Filterable Interactive Explorer, NO Eyebrow) -->
+    <section id="case-studies" class="section-pad">
+      <div class="container">
+        <div class="section-header-stack">
+          <h2 class="section-title">Production case studies and architectural proofs</h2>
+          <p class="section-subtitle">
+            Every system, migration, and operational turnaround below is documented in Context-Action-Result (CAR) format from real work. Filter by domain to inspect relevant proofs.
+          </p>
+        </div>
+
+        <div class="case-featured-banner">
+          <div class="case-featured-copy">
+            <span class="mono-tag">Featured Healthcare &amp; AI Delivery Footprint</span>
+            <h3>From 71-Partner Voice AI Rollouts to 59 Live Healthcare Data Feeds</h3>
+            <p>
+              Whether embedding with channel partners on SkySwitch/NetSapiens or enforcing end-to-end HIPAA/PHI security controls across Sword Health, Hinge Health, Maven, and Spring Health integrations, my focus is shipping reliable production systems with measurable SLO/SLA governance.
+            </p>
+          </div>
+          <div class="case-featured-media">
+            <img
+              src="assets/case-integrations.jpg"
+              alt="Structured enterprise data pipeline and security architecture visualization"
+              width="520"
+              height="390"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <!-- Filter Pills -->
+        <div class="filter-bar" role="tablist" aria-label="Filter case studies by domain">
+          <button class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All Case Studies (9)</button>
+          <button class="filter-pill" data-filter="ai" role="tab" aria-selected="false">AI &amp; Voice Deployment</button>
+          <button class="filter-pill" data-filter="healthcare" role="tab" aria-selected="false">Healthcare &amp; Data Integrations</button>
+          <button class="filter-pill" data-filter="ops" role="tab" aria-selected="false">Operating Models &amp; Automation</button>
+        </div>
+
+        <div class="case-grid" id="case-study-grid">
+          <!-- Case 1 -->
+          <article class="case-card" data-category="ai">
+            <div class="case-meta">
+              <span class="case-co">BCM One</span>
+              <span class="case-cat">Production Code &amp; CI/CD</span>
+            </div>
+            <h3 class="case-title">White-Label Outbound Email Slice for 30 Live Partners</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>Channel partners reselling Orbit AI needed customer-facing emails to originate from their own domains rather than <code>@bcmone</code>.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Wrote and shipped the email slice of the white-label capability (powered by SES) in Python, JavaScript/Node.js, and SQL, deployed via GitLab CI/CD pipelines, and monitored in Grafana and AWS.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>In production across all 30 live reselling channel partners, supporting a program projected to generate six-figure revenue by 2027.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 2 -->
+          <article class="case-card" data-category="ai">
+            <div class="case-meta">
+              <span class="case-co">BCM One</span>
+              <span class="case-cat">Voice AI &amp; QA Validation</span>
+            </div>
+            <h3 class="case-title">After-Hours Emergency-Detection IVR AI (10/10 QA Suite)</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>Orbit AI required high-reliability after-hours emergency detection and dispatch routing to emergency operations or EMS where applicable.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Built and validated end-to-end call handling against a 10-call QA test suite before release, and partnered with Miratech on L1 regression testing in Jira.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Passed 10/10 QA test calls prior to production release and established repeatable release validation standards.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 3 -->
+          <article class="case-card" data-category="ai ops">
+            <div class="case-meta">
+              <span class="case-co">BCM One</span>
+              <span class="case-cat">Discovery, VoC &amp; Governance</span>
+            </div>
+            <h3 class="case-title">71-Partner Orbit AI Program &amp; Build/Pilot/Decline Intake</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>Scaling Orbit AI across ~71 channel partners required structured technical discovery, self-serve intake, and product feedback loops.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Scoped ~10 AI use cases via build/pilot/decline intake with Legal, Security, Compliance, and Internal Audit gates; packaged a SharePoint hub and no-login monday.com intake; synthesized 54 partner mentions into 18 roadmap requests.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Moved 30 partners to live selling status (projected six-figure revenue by 2027) and aligned API/CRM validation directly to top partner demand.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 4 -->
+          <article class="case-card" data-category="healthcare">
+            <div class="case-meta">
+              <span class="case-co">Transcarent</span>
+              <span class="case-cat">Executive Partner Governance</span>
+            </div>
+            <h3 class="case-title">12 Executive Partner Accounts &amp; 59 Data Feeds Live</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>High-priority digital health partners (including Sword Health, Hinge Health, Maven, and Spring Health) required complex data feeds across a matrixed org.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Owned executive relationships and biweekly business reviews across 12 accounts; directed 20+ integration programs across 30+ partners; managed file layouts, Data Engineering builds, and test validation.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Took ~59 partner data feeds live end to end while maintaining 80%+ on-time delivery and 100% ultimate issue resolution.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 5 -->
+          <article class="case-card" data-category="healthcare">
+            <div class="case-meta">
+              <span class="case-co">Transcarent</span>
+              <span class="case-cat">HIPAA/PHI &amp; Cloud Migration</span>
+            </div>
+            <h3 class="case-title">HIPAA/PHI Security on Every Hop &amp; Redshift to Databricks (P0)</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>20+ partner and health benefit carrier integrations carried regulated PHI during a P0 cloud data platform migration from Redshift to Databricks.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Enforced end-to-end HIPAA/PHI security and privacy controls in transit, at rest, and across every intermediate handoff; supported WS2 P0 Redshift to Databricks requirements and cross-team dependency tracking.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Protected regulated health data across millions of platform users while keeping partner-impact planning and SQL production triage (15-20 issues/week) on track.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 6 -->
+          <article class="case-card" data-category="ops healthcare">
+            <div class="case-meta">
+              <span class="case-co">Transcarent</span>
+              <span class="case-cat">Operating Model &amp; Observability</span>
+            </div>
+            <h3 class="case-title">WS6 Operating Model Unification &amp; 462 Orphaned Tickets Audit</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>Fragmented workflows across Jira, Confluence, and Zendesk obscured blocked items and partner delivery risk.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Co-led Team Operating Model workstream (WS6), audited 462 orphaned tickets, redesigned 3 Jira Kanban boards with a 7-gadget executive dashboard and 7 saved filters, and built Power BI/Looker/Tableau reporting.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Established SLO/SLA governance that expanded team intake capacity and surfaced at-risk partner work before it impacted delivery.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 7 -->
+          <article class="case-card" data-category="ai ops">
+            <div class="case-meta">
+              <span class="case-co">Persevere Now</span>
+              <span class="case-cat">AI Enablement &amp; SaaS Scale</span>
+            </div>
+            <h3 class="case-title">Org-Wide GenAI Adoption (+25% YoY) &amp; 22% Churn Reduction</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>B2B SaaS learning platform needed higher onboarding retention, expanded service capacity, and generative AI upskilling across staff.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Self-initiated ChatGPT adoption with ~3 workshops/month; ran onboarding A/B testing and user research; presented CEO dashboards while managing a 17-person team.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Grew AI tool adoption 25%+ YoY, cut onboarding drop-off 22%, scaled platform capacity 50%, grew enrollment 25%, and doubled reported graduate outcome rates.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 8 -->
+          <article class="case-card" data-category="ops">
+            <div class="case-meta">
+              <span class="case-co">Trenton Public School District</span>
+              <span class="case-cat">Enterprise Rollout &amp; Migration</span>
+            </div>
+            <h3 class="case-title">30+ School Digital Rollout &amp; PowerSchool SIS Consolidation</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>Legacy student information systems fragmented grading, attendance, and administrative data across 30+ schools and 1,000+ staff.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Spearheaded multi-phase migration to PowerSchool and built product engagement dashboards to guide adoption interventions.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Reduced district software costs by 10% and improved platform usage metrics by 15% across 30+ schools.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <!-- Case 9 -->
+          <article class="case-card" data-category="ops healthcare">
+            <div class="case-meta">
+              <span class="case-co">NJ Dept. of the Treasury</span>
+              <span class="case-cat">Workflow Automation &amp; Payer Ops</span>
+            </div>
+            <h3 class="case-title">Excel/VBA Reconciliation Automation (50% Faster Resolution)</h3>
+            <dl class="car-list">
+              <div>
+                <dt>Context</dt>
+                <dd>High-volume SHBP and SEHBP health benefit enrollment and carrier triage with Horizon Blue Cross Blue Shield of New Jersey required manual reconciliation across thousands of monthly applications.</dd>
+              </div>
+              <div>
+                <dt>Action</dt>
+                <dd>Built Excel/VBA automation and repeatable reconciliation analytics while leading a 5-person specialist team (2016-2019) and supporting an AWS-based CRM migration.</dd>
+              </div>
+              <div>
+                <dt>Result</dt>
+                <dd>Cut data resolution time by 50% and achieved constituent satisfaction scores above 90%.</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: COMPLETE CHRONOLOGICAL CAREER RECORD (NO Eyebrow) -->
+    <section id="experience" class="section-pad section-alt">
+      <div class="container">
+        <div class="section-header-stack">
+          <h2 class="section-title">Chronological career record (2012 - Present)</h2>
+          <p class="section-subtitle">
+            Verified employers, exact titles, and dates matching every resume and background check record.
+          </p>
+        </div>
+
+        <div class="career-accordion-list">
+          <!-- Role 1: BCM One -->
+          <details class="career-item" open>
+            <summary class="career-summary">
+              <div class="career-summary-left">
+                <span class="career-company">BCM One</span>
+                <span class="career-pipe">|</span>
+                <span class="career-title">AI Implementation Manager</span>
+              </div>
+              <div class="career-summary-right">
+                <span class="career-dates">July 2026 - Present | Remote</span>
+                <span class="career-chevron" aria-hidden="true">+</span>
+              </div>
+            </summary>
+            <div class="career-body">
+              <ul class="career-bullets">
+                <li>Lead technical discovery and deployment support for Orbit AI, BCM One's AI voice receptionist built on the SkySwitch/NetSapiens platform, across a partner program covering about 71 channel partners, working alongside Account Managers to move partners from first conversation to live use; 30 partners are now live and selling it, with the program projected to generate six-figure revenue by 2027.</li>
+                <li>Test and validate the Orbit AI API for CRM and workflow integrations, and support channel partners connecting it through the SkySwitch/NetSapiens platform (ongoing).</li>
+                <li>Wrote and shipped the email slice of Orbit AI's white-label capability, so partners who resell the platform and their customers send all outgoing email from their own domain instead of @bcmone, in Python, JavaScript/Node.js, and SQL, deployed through GitLab CI/CD pipelines and monitored in production with Grafana and AWS monitoring; all 30 live partners use it.</li>
+                <li>Shipped a production after-hours emergency-detection and dispatch-routing IVR AI capability that triages calls to emergency operations or EMS where applicable, validating call handling end to end against a 10-call QA test suite (10/10 passed) before release.</li>
+                <li>Building an n8n workflow integration that connects Orbit AI's underlying infrastructure and integrations to third-party apps such as HubSpot (ongoing).</li>
+                <li>Scoped about 10 new AI use cases since July 2026 through a structured intake, assessing business case, technical complexity, feasibility, and risk to recommend build, pilot, or decline, and take approved builds through Legal, Security, Compliance, and Internal Audit review before production release.</li>
+                <li>Feed field insights back to Product: built an Orbit AI roadmap board capturing 18 distinct feature requests from 54 partner mentions, and wrote executive summaries for Product leadership naming the top demand (CRM and workflow integrations) and the main adoption blockers.</li>
+                <li>Governed automation and access: defined which API operations automations may perform alone versus with approval, evaluated scoped Atlassian API tokens against OAuth for Jira intake, chose OAuth on token expiry and rotation risk, and documented the decision; reverse-engineered the Orbit AI flow JSON schema and documented validation rules for the automatic flow-generation engine.</li>
+                <li>Lead BCM One's AI Implementation Team (AIT) as Product Owner and Scrum Master, managing 4 direct reports on 2-week Scrum sprints with Jira backlog refinement and story-point estimation; packaged deployment resources into a SharePoint resource hub and a no-login monday.com intake form, built monday.com leadership dashboards, and serve as Claude Admin and ServiceNow IT asset manager for AIT.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Role 2: Transcarent -->
+          <details class="career-item" open>
+            <summary class="career-summary">
+              <div class="career-summary-left">
+                <span class="career-company">Transcarent</span>
+                <span class="career-pipe">|</span>
+                <span class="career-title">Technical Program Manager, Data Integrations</span>
+              </div>
+              <div class="career-summary-right">
+                <span class="career-dates">September 2025 - June 2026 | Plymouth Meeting, PA (Hybrid)</span>
+                <span class="career-chevron" aria-hidden="true">+</span>
+              </div>
+            </summary>
+            <div class="career-body">
+              <ul class="career-bullets">
+                <li>Owned product requirements, intake specifications, and delivery roadmap for 20+ data integration programs across 30+ external partners on an AWS-backed SaaS platform serving millions of users, orchestrating 6 cross-functional workstreams (P0-P2) and taking about 59 partner data feeds live end to end.</li>
+                <li>Owned the executive relationship for 12 high-priority partner accounts (including Sword Health, Hinge Health, Maven, and Spring Health), running biweekly business reviews with 80%+ on-time delivery and 100% ultimate issue resolution.</li>
+                <li>Enforced end-to-end HIPAA/PHI data security and privacy controls across all 20+ partner and health benefit carrier integrations (in transit, at rest, and across every intermediate handoff), and supported the P0 Redshift to Databricks platform migration (WS2) through requirements definition, phased delivery planning, and dependency tracking.</li>
+                <li>Triaged 15-20 weekly production issues (pipeline failures, schema mismatches, and delivery gaps) using SQL against production data, establishing SLO/SLA governance frameworks that improved service reliability and intake capacity.</li>
+                <li>Built a unified product observability dashboard, redesigned 3 Jira Kanban boards with a 7-gadget executive dashboard and 7 saved filters, built Power BI/Looker/Tableau reporting artifacts, and deployed changes via GitLab CI/CD with Grafana and AWS monitoring.</li>
+                <li>Co-led the Team Operating Model workstream (WS6), standardizing workflows across Jira, Confluence, Zendesk, Retool, Salesforce, and Snowflake, and auditing 462 orphaned tickets to drive systematic resolution.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Role 3: Correlation One -->
+          <details class="career-item">
+            <summary class="career-summary">
+              <div class="career-summary-left">
+                <span class="career-company">Correlation One</span>
+                <span class="career-pipe">|</span>
+                <span class="career-title">Lead AWS Coding Instructor</span>
+              </div>
+              <div class="career-summary-right">
+                <span class="career-dates">May 2025 - September 2025 | Contract</span>
+                <span class="career-chevron" aria-hidden="true">+</span>
+              </div>
+            </summary>
+            <div class="career-body">
+              <ul class="career-bullets">
+                <li>Taught Python, GitHub version control, and the software development lifecycle (SDLC) as lead instructor on an AWS coding program.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Role 4: Persevere Now -->
+          <details class="career-item">
+            <summary class="career-summary">
+              <div class="career-summary-left">
+                <span class="career-company">Persevere Now</span>
+                <span class="career-pipe">|</span>
+                <span class="career-title">Program Manager, Data &amp; Platform Operations</span>
+              </div>
+              <div class="career-summary-right">
+                <span class="career-dates">November 2022 - May 2025 | Remote</span>
+                <span class="career-chevron" aria-hidden="true">+</span>
+              </div>
+            </summary>
+            <div class="career-body">
+              <ul class="career-bullets">
+                <li>Self-initiated and led company-wide generative AI adoption, introducing ChatGPT across the organization and delivering ~3 AI training and upskilling workshops per month on curriculum development and code review, driving 25%+ year-over-year growth in AI tool adoption.</li>
+                <li>Led a 17-person team (7 classroom instructors, 7 TAs, and 3 software engineers as direct reports), directing full-stack technical operations and code review across JavaScript/HTML/CSS, React/Redux, Angular, Node.js, MongoDB, Docker, and GitHub.</li>
+                <li>Owned end-to-end product roadmap for a B2B SaaS platform as Scrum Product Owner, scaling platform capacity by 50% and growing learner enrollment by 25%.</li>
+                <li>Led A/B testing and structured experimentation on onboarding workflows to reduce user drop-off by 22%, and reported directly to the CEO with executive dashboards that enabled decisions doubling reported graduate outcome rates.</li>
+                <li>Authored product playbooks, onboarding SOPs, and escalation protocols across a multi-tier vendor-customer model.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Role 5: Trenton Public School District -->
+          <details class="career-item">
+            <summary class="career-summary">
+              <div class="career-summary-left">
+                <span class="career-company">Trenton Public School District</span>
+                <span class="career-pipe">|</span>
+                <span class="career-title">Technology Program Manager / Classroom Teacher</span>
+              </div>
+              <div class="career-summary-right">
+                <span class="career-dates">September 2019 - November 2022 | Trenton, NJ</span>
+                <span class="career-chevron" aria-hidden="true">+</span>
+              </div>
+            </summary>
+            <div class="career-body">
+              <ul class="career-bullets">
+                <li>Led a 4-person team as Technology Program Manager.</li>
+                <li>Managed end-to-end rollout of a district-wide digital platform across 30+ schools and 1,000+ staff; defined user adoption goals, coordinated cross-functional teams, and reported to executive leadership.</li>
+                <li>Spearheaded migration from legacy student information systems to PowerSchool, consolidating grading, attendance, and administrative data into a unified platform and reducing district software costs by 10%.</li>
+                <li>Built product and Excel-based dashboards tracking learner engagement outcomes, driving a 15% improvement in platform usage metrics, and applied UX and accessibility principles across district-wide digital content.</li>
+              </ul>
+            </div>
+          </details>
+
+          <!-- Role 6: State of New Jersey -->
+          <details class="career-item">
+            <summary class="career-summary">
+              <div class="career-summary-left">
+                <span class="career-company">State of New Jersey - Dept. of the Treasury</span>
+                <span class="career-pipe">|</span>
+                <span class="career-title">Pension Benefit Specialist III</span>
+              </div>
+              <div class="career-summary-right">
+                <span class="career-dates">August 2012 - September 2019 | Trenton, NJ</span>
+                <span class="career-chevron" aria-hidden="true">+</span>
+              </div>
+            </summary>
+            <div class="career-body">
+              <ul class="career-bullets">
+                <li>Led a 5-person team of Pension Benefit Specialists from 2016 to 2019, overseeing health benefit enrollment processing for the State Health Benefits Program (SHBP) and School Employees' Health Benefits Program (SEHBP) and triage support with Horizon Blue Cross Blue Shield of New Jersey, and ran performance evaluations, training, and workload distribution for the unit.</li>
+                <li>Drove the team's throughput at peak volume, processing thousands of health benefit applications monthly through end-to-end validation and manual entry workflows.</li>
+                <li>Automated workflows using Excel/VBA to cut data resolution time by 50%, achieving constituent satisfaction scores above 90%, and managed high-volume data reconciliation to surface systemic policy improvements.</li>
+                <li>Contributed to an AWS-based CRM migration and reviewed annual health benefit contracts between government agencies and service locations.</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: CREDENTIALS, EDUCATION & CONFIRMED TECHNICAL MATRIX (Eyebrow 3 of 3) -->
+    <section id="credentials" class="section-pad">
+      <div class="container">
+        <div class="section-header-stack">
+          <p class="eyebrow">Education, Certifications &amp; Verified Tooling</p>
+          <h2 class="section-title">Academic credentials and context-proven technical stack</h2>
+          <p class="section-subtitle">
+            Every skill and tool listed below is anchored to a specific role, certification, or graduate program.
+          </p>
+        </div>
+
+        <div class="creds-two-col">
+          <!-- Education Column -->
+          <div class="creds-panel">
+            <h3 class="creds-panel-title">Education</h3>
+            <div class="creds-cards-stack">
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">M.S., Artificial Intelligence &amp; Large Language Models</span>
+                  <span class="status-pill status-study">In Progress</span>
+                </div>
+                <p class="cred-school">Eastern University</p>
+              </div>
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">M.F.A., Educational Technology</span>
+                  <span class="cred-year">2022</span>
+                </div>
+                <p class="cred-school">Thomas Edison State University</p>
+              </div>
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">B.S. (Bachelor of Science)</span>
+                  <span class="cred-year">2012</span>
+                </div>
+                <p class="cred-school">Rutgers University</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="creds-panel">
+            <h3 class="creds-panel-title">Certifications &amp; Specialized Training</h3>
+            <div class="creds-cards-stack">
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">Professional Scrum Product Owner I (PSPO I)</span>
+                  <span class="status-pill status-shipped">Active</span>
+                </div>
+                <p class="cred-school">Scrum.org | Applied across BCM One &amp; Persevere Now</p>
+              </div>
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">Lean Six Sigma Black Belt</span>
+                  <span class="status-pill status-shipped">Active</span>
+                </div>
+                <p class="cred-school">Applied to SLO/SLA governance &amp; process automation</p>
+              </div>
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">AWS Certified Cloud Practitioner &amp; Salesforce AI Associate</span>
+                  <span class="status-pill status-shipped">Active</span>
+                </div>
+                <p class="cred-school">Amazon Web Services &amp; Salesforce</p>
+              </div>
+              <div class="cred-item">
+                <div class="cred-top">
+                  <span class="cred-degree">AWS Certified AI Practitioner (AIF-C01) &amp; LLM Engineering</span>
+                  <span class="status-pill status-study">In Progress (2026)</span>
+                </div>
+                <p class="cred-school">Covers RAG Pipelines, AI Agents, QLoRA Fine-Tuning, Frontier Model APIs, LangChain, Amazon Bedrock &amp; IaC</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grouped Technical Stack Chunks (3 logical clusters, per taste-skill 4.9) -->
+        <div class="stack-clusters">
+          <div class="stack-cluster">
+            <h4 class="cluster-heading">AI, Cloud &amp; Data Platforms</h4>
+            <p class="cluster-context">Production delivery at BCM One &amp; Transcarent + graduate/AIF-C01 study</p>
+            <div class="pill-wrap">
+              <span class="tech-pill">AWS (Cloud Practitioner)</span>
+              <span class="tech-pill">Databricks</span>
+              <span class="tech-pill">Redshift</span>
+              <span class="tech-pill">Snowflake</span>
+              <span class="tech-pill">RAG Pipelines</span>
+              <span class="tech-pill">AI Agents</span>
+              <span class="tech-pill">QLoRA / Fine-Tuning</span>
+              <span class="tech-pill">OpenAI &amp; Anthropic APIs</span>
+              <span class="tech-pill">Claude Admin</span>
+              <span class="tech-pill">LangChain (Study)</span>
+              <span class="tech-pill">Amazon Bedrock (Study)</span>
+            </div>
+          </div>
+
+          <div class="stack-cluster">
+            <h4 class="cluster-heading">Languages, CI/CD, APIs &amp; Full-Stack</h4>
+            <p class="cluster-context">Shipped code at BCM One &amp; Transcarent; full-stack supervision at Persevere Now</p>
+            <div class="pill-wrap">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">SQL</span>
+              <span class="tech-pill">JavaScript / Node.js</span>
+              <span class="tech-pill">HTML / CSS</span>
+              <span class="tech-pill">REST APIs &amp; OAuth</span>
+              <span class="tech-pill">Postman</span>
+              <span class="tech-pill">GitLab CI/CD</span>
+              <span class="tech-pill">GitHub</span>
+              <span class="tech-pill">Grafana</span>
+              <span class="tech-pill">n8n</span>
+              <span class="tech-pill">React / Redux</span>
+              <span class="tech-pill">Angular</span>
+              <span class="tech-pill">MongoDB</span>
+              <span class="tech-pill">Docker</span>
+            </div>
+          </div>
+
+          <div class="stack-cluster">
+            <h4 class="cluster-heading">Enterprise Program, BI &amp; CRM Systems</h4>
+            <p class="cluster-context">Portfolio governance, partner operations, and executive reporting</p>
+            <div class="pill-wrap">
+              <span class="tech-pill">Jira (Admin/Power User)</span>
+              <span class="tech-pill">Confluence</span>
+              <span class="tech-pill">Salesforce</span>
+              <span class="tech-pill">HubSpot</span>
+              <span class="tech-pill">Zendesk</span>
+              <span class="tech-pill">ServiceNow</span>
+              <span class="tech-pill">Retool</span>
+              <span class="tech-pill">Power BI</span>
+              <span class="tech-pill">Looker</span>
+              <span class="tech-pill">Tableau</span>
+              <span class="tech-pill">monday.com</span>
+              <span class="tech-pill">SharePoint</span>
+              <span class="tech-pill">Excel / VBA</span>
+              <span class="tech-pill">Lucidchart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: FOOTER CTA (No Eyebrow, Matching Contact CTA Intent) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-cta-block">
+          <h2 class="footer-title">Deploying AI or scaling partner integrations?</h2>
+          <p class="footer-sub">
+            Based in Lansdale, PA (Greater Philadelphia Area) and open to remote and hybrid leadership, AI implementation, forward-deployed, and technical program roles.
+          </p>
+          <div class="footer-actions">
+            <a href="mailto:Steven.Balalis@gmail.com" class="btn btn-primary btn-lg">Email Steven</a>
+            <a href="assets/Steven_Balalis_Resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">Resume PDF</a>
+            <a href="https://linkedin.com/in/stevenbalalis" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">LinkedIn Profile</a>
+          </div>
+        </div>
+
+        <div class="footer-meta">
+          <div class="footer-contact-items">
+            <span>Steven Balalis</span>
+            <span class="sep">|</span>
+            <span>Lansdale, PA</span>
+            <span class="sep">|</span>
+            <a href="mailto:Steven.Balalis@gmail.com">Steven.Balalis@gmail.com</a>
+            <span class="sep">|</span>
+            <a href="tel:6099475606">609-947-5606</a>
+            <span class="sep">|</span>
+            <a href="https://linkedin.com/in/stevenbalalis" target="_blank" rel="noopener">linkedin.com/in/stevenbalalis</a>
+          </div>
+          <p class="footer-note">
+            All metrics, titles, dates, and credentials verified against canonical career records.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
